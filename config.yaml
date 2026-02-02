@@ -1,0 +1,11 @@
+active: "standard"
+configs:
+  current: # All data loaded til 2026-01-15
+    defaults:
+      base: "~/Bucket/BRABOSTIM/"
+      dataout: false
+    scripts:
+      easee_logparser:
+        input: "data/20260202_IMS_Anfallstagebuch/"
+        output: "output/helpy_html2csv/"
+        dataout: true
